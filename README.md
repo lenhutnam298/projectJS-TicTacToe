@@ -32,5 +32,10 @@ Go to the package.json file, add this script at last position
  start index.html
  ```
  
+ Other way, you can open index.html in your browser for testing
+ 
  ## Explanation about Minimax Algorithm
+ 
+ ## Update
+ 
  
