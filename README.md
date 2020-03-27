@@ -6,7 +6,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-
 [![Contributors][contributors-shield]][contributors-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Forks][forks-shield]][forks-url]
@@ -16,43 +15,43 @@
 
 ## Tic Tac Toe with Minimax Algorithm
 
-## How to run this project
+## How to run this project in local sever
 
-First of all, you must have nodejs in your system
+I usually use Node http-sevrer cause it is much faster than python simple server while requiring a little bit of setup.
 
-Open the foler, start Window Powershell
+First of all, download and install node.js and then, open a terminal (linux) or command prompt (or Windows Powershell) if you are on windows (remember open these command as an administrator).
 
-Install additional packages
-
-```
-npm install http-server --save-dev
-```
+In the command, type:
 
 ```
-npm install concurrently --save-dev
+npm install -g http-server
 ```
 
-Go to the package.json file, add this script at last position
+Done!
+
+From then, cd to the folder you have dowloaded before, type:
 
 ```
-"scripts": {
-    "start": "npm run open",
-    "open": "concurrently \"http-server -a localhost -p 1234\" \"open http://localhost:1234/build\""
- }
- ```
- 
- Clear command in Window Powershell and type
- ```
- start index.html
- ```
- 
- Other way, you can open index.html in your browser for testing
- 
- ## Explanation about Minimax Algorithm
- 
- ## Update
- 
- 
+http-server
+```
+
+Then point your browser at ```http://192.168.43.100:8080/```
+
+Click index.html, and testing ^^
+
+This way is very simply to run project in a local server. And some other way, I recommend you can search Google:
+
+- Using PHP built-in web server
+- Python SimpleHTTPServer
+- Web Server for Chrome extension
+- Brackets editor
+- Live Server Extension in Visual Studio code
+- ...
+
+## Explanation about Minimax Algorithm
+
+## Update
+  
 <!-- MARKDOWN LINKS & IMAGES -->
 [contributors-shield]: https://img.shields.io/github/contributors/lenhutnam298/projectJS-TicTacToe?style=flat-square
 [contributors-url]: https://github.com/lenhutnam298/projectJS-TicTacToe/graphs/contributors
